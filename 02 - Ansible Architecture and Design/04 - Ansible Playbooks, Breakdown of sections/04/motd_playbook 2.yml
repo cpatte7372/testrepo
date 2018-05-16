@@ -16,7 +16,7 @@
   tasks:
     - name: Configure a MOTD (message of the day)
       copy:
-        content: Welcome to CentOS Linux - Ansible Rocks
+        content: Welcome to CentOS Linux - Ansible knocks
         dest: /etc/motd
 
   # Handlers: handlers that are executed as a notify key from a task
